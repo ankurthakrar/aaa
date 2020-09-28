@@ -1,0 +1,205 @@
+[
+    {
+        "name": "fideloper/proxy",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fideloper/TrustedProxy.git",
+            "reference": "9beebf48a1c344ed67c1d36bb1b8709db7c3c1a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/9beebf48a1c344ed67c1d36bb1b8709db7c3c1a8",
+            "reference": "9beebf48a1c344ed67c1d36bb1b8709db7c3c1a8",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/contracts": "^5.0|^6.0|^7.0|^8.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "illuminate/http": "^5.0|^6.0|^7.0|^8.0",
+            "mockery/mockery": "^1.0",
+            "phpunit/phpunit": "^6.0"
+        },
+        "time": "2020-06-23T01:36:47+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Fideloper\\Proxy\\TrustedProxyServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Fideloper\\Proxy\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Fidao",
+                "email": "fideloper@gmail.com"
+            }
+        ],
+        "description": "Set trusted proxies for Laravel",
+        "keywords": [
+            "load balancing",
+            "proxy",
+            "trusted proxy"
+        ]
+    },
+    {
+        "name": "illuminate/contracts",
+        "version": "8.x-dev",
+        "version_normalized": "8.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/contracts.git",
+            "reference": "37ec3d86c2761628957b6d762ecd3bd27da754bd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/contracts/zipball/37ec3d86c2761628957b6d762ecd3bd27da754bd",
+            "reference": "37ec3d86c2761628957b6d762ecd3bd27da754bd",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.3",
+            "psr/container": "^1.0",
+            "psr/simple-cache": "^1.0"
+        },
+        "time": "2020-09-16T13:57:35+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "8.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\Contracts\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Illuminate Contracts package.",
+        "homepage": "https://laravel.com"
+    },
+    {
+        "name": "psr/container",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b1fbdff230c2fae8b3e600ead18e711563f05a04",
+            "reference": "b1fbdff230c2fae8b3e600ead18e711563f05a04",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-09-18T06:44:01+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "psr/simple-cache",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/simple-cache.git",
+            "reference": "5a7b96b1dda5d957e01bc1bfe77dcca09c5a7474"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/5a7b96b1dda5d957e01bc1bfe77dcca09c5a7474",
+            "reference": "5a7b96b1dda5d957e01bc1bfe77dcca09c5a7474",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-04-21T06:43:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\SimpleCache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for simple caching",
+        "keywords": [
+            "cache",
+            "caching",
+            "psr",
+            "psr-16",
+            "simple-cache"
+        ]
+    }
+]
